@@ -1,0 +1,43 @@
+1:
+with props we can pass the data
+state store the information 
+
+2:
+class component
+functional component
+
+3:
+mounting
+updating
+unmounting
+
+4:
+variable,state
+
+5:
+when we have to pass a function or a info  from grandparent to parent and then child component we have to pass through Greandpa->parent->child
+but with the use of contex we, can directly pass the function or the info through contex. 
+
+6:
+event
+event handler
+execution
+
+7:
+when there are 2 components and we need to update the 2nd state on a call of one state at that time we need to lift the state to the parent component.
+
+
+8:
+yes,we can not directly assign the value it will update the UI but not the state.
+
+9:
+
+10:
+const getVlaue=()=>{
+}
+
+<input type="text" onchange={getValue}/>
+
+return(
+<value={valueNmae}/>
+);
