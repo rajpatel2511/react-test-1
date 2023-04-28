@@ -1,6 +1,6 @@
 1:
 with props we can pass the data
-state store the information 
+state stores the information 
 
 2:
 class component
@@ -21,14 +21,16 @@ but with the use of contex we, can directly pass the function or the info throug
 6:
 event
 event handler
-execution
+function execution
+UI update
 
 7:
-when there are 2 components and we need to update the 2nd state on a call of one state at that time we need to lift the state to the parent component.
+when there are 2 components and we need to update the 2nd components on a call of one components at that time we need to lift the state to the parent component.
 
 
 8:
-yes,we can not directly assign the value it will update the UI but not the state.
+yes,
+we can not directly assign the value it will update the UI but not the state.
 
 9:
 
@@ -39,5 +41,5 @@ const getVlaue=()=>{
 <input type="text" onchange={getValue}/>
 
 return(
-<value={valueNmae}/>
+<value={valueName}/>
 );
